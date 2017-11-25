@@ -22,17 +22,19 @@ The data contain the following files. These can all be read in using
 the R `readRDS()` function (the `data.table` package may be helpful in
 viewing these files)
 
-- **Land Unavailability** -- Land Unavailability including total
-  unavailability and unavailability due to slope, water, and
-  wetlands. 
+- **Land Unavailability** (Folder: `_Data_Final_`) -- Land
+  Unavailability including total unavailability and unavailability due
+  to slope, water, and wetlands.
   - The Land Unavailability data above can be thought of as "equal
     weighted" across a geographic region. Population weighted data,
-    which can be useful for large geographic areas like counties or
-    MSAs, can be constructed using the zip code Land Unavailability
-    data (the lowest level of aggregation in the Land Unavailability
-    dataset) and the
+    which can be useful for large geographic areas like counties,
+    commuting zones, or MSAs, can be constructed using the zip code
+    Land Unavailability data (the lowest level of aggregation in the
+    Land Unavailability dataset) and
+    the
     [Missouri Data Bridge](http://mcdc.missouri.edu/websas/geocorr14.html).
-- **Other Data** -- Other economic and geographic data used in the paper.
+- **Other Data** (Folder `_Data_Final_Other_`) -- Other economic and
+  geographic data used in the paper.
 
 License 
 ------------
