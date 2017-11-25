@@ -10,7 +10,10 @@ Currently the data are available at the following levels of
 aggregation:
 * 1999 MSAs
 * 1999 MSA codes used by Saiz 2010
+* 1990 counties
+* 2000 counties 
 * 2010 counties
+* 2000 commuting zones 
 * 2000 five digit zip codes
 * 2010 five digit zip codes
 * 2000 three digit zip codes
