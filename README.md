@@ -7,7 +7,8 @@ Datasets
 ------------
 
 Currently the data are available at the following levels of
-aggregation:
+aggregation (Years correspond to geographic definitions from the US
+Census): 
 * 1999 MSAs
 * 1999 MSA codes used by Saiz 2010
 * 1990 counties
@@ -18,7 +19,6 @@ aggregation:
 * 2010 five digit zip codes
 * 2000 three digit zip codes
 * US states
-* Years correspond to geographic definitions from the US Census
 
 
 
