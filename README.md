@@ -35,6 +35,16 @@ Folders
 * **DATA_LU_csv**: Csv files with above information. The list-column
   with adjacent polygons is lost in the conversion to csv. 
 
+
+Notes
+------------
+
+* Note that for geographic regions that don't change over time
+  (e.g. Los Angeles county), there might be some differences in our
+  calculation of Land Unavailability due to (1) the resolution of the
+  shapefiles from the US census; and (2) a slight error tolerance from
+  compiling and cutting the various satellite images together.
+
 License 
 ------------
 
