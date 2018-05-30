@@ -5,7 +5,6 @@
 *.tif
 *.xml
 *.dta
-*.csv
 *.xls
 *.xlsx
 *.shp
