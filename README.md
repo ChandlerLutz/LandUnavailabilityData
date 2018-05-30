@@ -17,6 +17,7 @@ aggregation:
 * 2000 five digit zip codes
 * 2010 five digit zip codes
 * 2000 three digit zip codes
+* US states
 
 
 
