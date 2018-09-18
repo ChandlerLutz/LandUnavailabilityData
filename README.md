@@ -48,5 +48,5 @@ Notes
 License 
 ------------
 
-For academic, non-commercial use only. For all other uses, please
+For academic and government, non-commercial use only. For all other uses, please
 contact authors. 
