@@ -20,6 +20,9 @@ Census):
 * 2000 three digit zip codes
 * US states
 
+Other Datasets that might be helpful:
+* Zip3 City Labels from USPS and Wikipedia [Data_Other/Data_Zip3_City_Labels](https://github.com/ChandlerLutz/LandUnavailabilityData/tree/master/Data_Other/Data_Zip3_City_Labels)
+
 
 
 Folders
@@ -34,6 +37,8 @@ Folders
   files). Zip code files contain
 * **DATA_LU_csv**: Csv files with above information. The list-column
   with adjacent polygons is lost in the conversion to csv. 
+* **Data_Other**: Other Datasets that might be helpful
+  - **Data_Other/Data_Zip3_City_Labels** -- zip3 city labels
 
 
 Notes
