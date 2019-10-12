@@ -38,7 +38,7 @@ Folders
 * **DATA_LU_csv**: Csv files with above information. The list-column
   with adjacent polygons is lost in the conversion to csv. 
 * **Data_Other**: Other Datasets that might be helpful
-  - **Data_Other/Data_Zip3_City_Labels** -- zip3 city labels
+  - Data_Other/Data_Zip3_City_Labels -- zip3 city labels
 
 
 Notes
