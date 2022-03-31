@@ -1,7 +1,7 @@
 Land Unavailability Data
 ===========
 
-Land Unavailability Data used in ["Highly Disaggregated Land Unavailability"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3478900) ([Cite](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22Highly+Disaggregated+Land+Unavailability%22&btnG=#d=gs_cit&u=%2Fscholar%3Fq%3Dinfo%3AcgQ1OyAhCM0J%3Ascholar.google.com%2F%26output%3Dcite%26scirp%3D0%26hl%3Den)).
+Land Unavailability (LU) data used in ["Highly Disaggregated Land Unavailability"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3478900) ([Cite](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22Highly+Disaggregated+Land+Unavailability%22&btnG=#d=gs_cit&u=%2Fscholar%3Fq%3Dinfo%3AcgQ1OyAhCM0J%3Ascholar.google.com%2F%26output%3Dcite%26scirp%3D0%26hl%3Den)).
 
 Download 
 ------------
