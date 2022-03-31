@@ -26,8 +26,10 @@ Datasets
 Notes and FAQ
 ------------
 
-* Note that for geographic regions that don't change over time (e.g. Los Angeles county), there might be some differences in our calculation of Land Unavailability due to (1) the resolution of the shapefiles from the US census; and (2) a slight error tolerance from compiling and cutting the various satellite images together.
+* For the Zillow HPs, we compile the LU data using data starting in 2002 (`from_2002`) or 2011 (`from_2011`). In the Zillow data, the number of geographic units (e.g., the number of zip codes) increases over time. So, the `from_2002` LU data will correspond to a longer time series, but have few cross-sectional observations. 
 * The components in the `*lu_total_ml_best.csv` files will not necessarily sum to the totals in the `*lu_total_ml_best.csv` as the optimal polygon shape for which we calculate land unavailability is allowed to differ across the two calculations. 
+* For geographic regions that don't change over time (e.g. Los Angeles county), there might be some differences in our calculation of Land Unavailability due to (1) the resolution of the shapefiles from the US census; and (2) a slight error tolerance from compiling and cutting the various satellite images together.
+
 
 License 
 ------------
