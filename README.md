@@ -13,9 +13,8 @@ Download
 Datasets
 ------------
 
-📂 `best-lu-for-fhfa-hp`
-	- LU ML and HP data for FHFA House Prices  
-📂 `best-lu-for-freddie-mac-hp` -- LU ML and HP data for Freddie Mac House Prices  
+📂`best-lu-for-fhfa-hp` &ndash; LU ML and HP data for FHFA House Prices  
+📂 `best-lu-for-freddie-mac-hp` &ndash; LU ML and HP data for Freddie Mac House Prices  
 📂 `best-lu-for-zillow-hp`        # LU ML and HP data for Zillow House Prices  
 📂 `buildable-land`               # Buildable Land for zip and zip3  
 📂 `lu-raw`                       # Raw LU data  
