@@ -1,8 +1,7 @@
 Land Unavailability Data
 ===========
 
-Land Unavailability Data used in ["Highly Disaggregated Land Unavailability"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3478900). 
-* [Cite](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22Highly+Disaggregated+Land+Unavailability%22&btnG=#d=gs_cit&u=%2Fscholar%3Fq%3Dinfo%3AcgQ1OyAhCM0J%3Ascholar.google.com%2F%26output%3Dcite%26scirp%3D0%26hl%3Den)
+Land Unavailability Data used in ["Highly Disaggregated Land Unavailability"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3478900) ([Cite](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=%22Highly+Disaggregated+Land+Unavailability%22&btnG=#d=gs_cit&u=%2Fscholar%3Fq%3Dinfo%3AcgQ1OyAhCM0J%3Ascholar.google.com%2F%26output%3Dcite%26scirp%3D0%26hl%3Den)).
 
 Download 
 ------------
@@ -14,10 +13,10 @@ Datasets
 ------------
 
 📂`best-lu-for-fhfa-hp` &ndash; LU ML and HP data for FHFA House Prices  
-📂 `best-lu-for-freddie-mac-hp` &ndash; LU ML and HP data for Freddie Mac House Prices  
-📂 `best-lu-for-zillow-hp`        # LU ML and HP data for Zillow House Prices  
-📂 `buildable-land`               # Buildable Land for zip and zip3  
-📂 `lu-raw`                       # Raw LU data  
+📂`best-lu-for-freddie-mac-hp` &ndash; LU ML and HP data for Freddie Mac House Prices  
+📂`best-lu-for-zillow-hp` &ndash; LU ML and HP data for Zillow House Prices  
+📂`buildable-land` &ndash; Buildable Land for zip and zip3  
+📂`lu-raw` &ndash; Raw LU data  
 
 * `*lu_panel_ml_best.csv` files -- We use machine learning (ML) algorithms and land unavailability (LU) proxies at multiple levels of disaggregation to generate this panel dataset of LU estimates that can be used as an instrument for house prices in a panel data framework. 
 * `*lu_total_ml_best.csv` files -- We use ML techniques to choose the optimal polygon shape for which to calculate total land unavailability. These datasets report the total land unavailability for those optimal polygon shapes, yielding a cross-sectional dataset of land unavailability estimates (e.g., one LU estimate for each CBSA). 
