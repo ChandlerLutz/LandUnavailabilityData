@@ -12,8 +12,7 @@ Download
 Datasets
 ------------
 
-- 📂`buildable-land` &ndash; Buildable Land for zip and zip3  
-- 📂`lu-raw` &ndash; Raw LU data  
+ 
 - `01-zillow_us_hp.csv` - Zillow US national house prices 
 - `02-zillow_county_2002_start.csv` - Zillow county data starting in 2002: LU-ML IV and house prices
 - `03-zillow_county_2011_start.csv` - Zillow county data starting in 2011: LU-ML IV and house prices
@@ -27,7 +26,8 @@ Datasets
 - `13-fhfa_lu_ml_po.csv` - FHFA cbsa data purchases only: LU-ML IV and house prices
 - `20-freddie_mac_us_hpi.csv` - Freddie Mac US national house prices
 - `21-freddie_mac_lu_ml.csv` - Freddie Mac cbsa data: LU-ML IV and house prices
-
+- 📂`buildable-land` &ndash; Buildable Land for zip and zip3  
+- 📂`lu-raw` &ndash; Raw LU data 
 
 Notes and FAQ
 ------------
