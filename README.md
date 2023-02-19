@@ -12,22 +12,28 @@ Download
 Datasets
 ------------
 
-📂`best-lu-for-fhfa-hp` &ndash; LU ML and HP data for FHFA CBSA all-transaction (at) and purchases only (po) house prices  
-📂`best-lu-for-freddie-mac-hp` &ndash; LU ML and HP data for Freddie Mac CBSA house prices  
-📂`best-lu-for-zillow-hp` &ndash; LU ML and HP data for Zillow zip, county, and CBSA house prices  
 📂`buildable-land` &ndash; Buildable Land for zip and zip3  
 📂`lu-raw` &ndash; Raw LU data  
-
-* `*lu_panel_ml_best.csv` files -- We use machine learning (ML) algorithms and land unavailability (LU) proxies at multiple levels of disaggregation to generate this panel dataset of LU estimates that can be used as an instrument for house prices in a panel data framework. 
-* `*lu_total_ml_best.csv` files -- We use ML techniques to choose the optimal polygon shape for which to calculate total land unavailability. These datasets report the total land unavailability for those optimal polygon shapes, yielding a cross-sectional dataset of land unavailability estimates (e.g., one LU estimate for each CBSA). 
-* `*lu_total_ml_best.csv` files -- We again use ML techniques to choose the optimal polygon shape. These files report the components of land unavailability.  
+6133867.png `01-zillow_us_hp.csv` - Zillow US national house prices 
+📜`01-zillow_us_hp.csv` - Zillow US national house prices 
+📜`02-zillow_county_2002_start.csv` 
+📜`03-zillow_county_2011_start.csv` 
+📜`04-zillow_cbsa_2002_start.csv` 
+📜`05-zillow_cbsa_2011_start.csv`
+📜`06-zillow_zip_2002_start.csv`
+📜`07-zillow_zip_2011_start.csv`
+📜`10-fhfa_at_us_hp.csv`
+📜`11-fhfa_po_us_hp.csv`
+📜`12-fhfa_lu_ml_at.csv`
+📜`13-fhfa_lu_ml_po.csv`
+📜`20-freddie_mac_us_hpi.csv`
+📜`21-freddie_mac_lu_ml.csv`
 
 
 Notes and FAQ
 ------------
 
-* For the Zillow HPs, we compile the LU data using data starting in 2002 (`from_2002`) or 2011 (`from_2011`). In the Zillow data, the number of geographic units (e.g., the number of zip codes) increases over time. So, the `from_2002` LU data will correspond to a longer time series, but have few cross-sectional observations. 
-* The components in the `*lu_total_ml_best.csv` files will not necessarily sum to the totals in the `*lu_total_ml_best.csv` as the optimal polygon shape for which we calculate land unavailability is allowed to differ across the two calculations. 
+* For the Zillow HPs, we compile the LU data using data starting in 2002 or 2011. In the Zillow data, the number of geographic units (e.g., the number of zip codes) increases over time. So, data starting in 2002 data will have a longer time series, but have few cross-sectional observations. 
 * For geographic regions that don't change over time (e.g. Los Angeles county), there might be some differences in our calculation of Land Unavailability due to (1) the resolution of the shapefiles from the US census; and (2) a slight error tolerance from compiling and cutting the various satellite images together.
 
 
