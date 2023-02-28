@@ -27,7 +27,9 @@ Datasets
 - `13-fhfa_lu_ml_po.csv` - FHFA cbsa data purchases only: LU-ML IV and house prices
 - `20-freddie_mac_us_hpi.csv` - Freddie Mac US national house prices
 - `21-freddie_mac_lu_ml.csv` - Freddie Mac cbsa data: LU-ML IV and house prices
-- 📂`buildable-land` &ndash; Buildable Land for zip and zip3  
+- 📂`buildable-land` &ndash; Buildable Land for zip and zip3
+  - `zip.csv` -- Buildable land as of 2001 for 2010 zip codes (sq. meters)
+  - `zip3.csv` -- Buildable land as of 2001 for 2010 three-digit zip codes (sq. meters)
 - 📂`lu-raw` &ndash; Raw LU data 
 
 Notes and FAQ
